@@ -2,9 +2,6 @@
 	path = ueblog/public
 	url = https://github.com/mackau-io/mackau.github.io.git
 	branch = main
-[submodule "ueblog/ueblog/themes/hugo-brewm"]
-	path = ueblog/ueblog/themes/hugo-brewm
-	url = https://github.com/foxihd/hugo-brewm.git
 [submodule "ueblog/themes/hugo-brewm"]
 	path = ueblog/themes/hugo-brewm
 	url = https://github.com/foxihd/hugo-brewm.git
