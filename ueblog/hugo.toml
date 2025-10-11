@@ -1,4 +1,4 @@
-baseURL = 'https://mackau.github.io'
+baseURL = 'https://mackau-io.github.io'
 languageCode = 'en-us'
 title = 'Mackau Blog'
 theme = 'hugo-brewm'
