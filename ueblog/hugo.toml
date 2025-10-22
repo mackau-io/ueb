@@ -2,6 +2,7 @@ baseURL = "https://mackau-io.github.io"
 languageCode = "en-us"
 title = "Kai Mackall's Blog"
 theme = "hugo-brewm"
+enableGitInfo = true
 
 [taxonomies]
 	category = 'categories'
@@ -71,9 +72,18 @@ theme = "hugo-brewm"
 	name = 'GitHub'
 	url = 'https://github.com/mackau-io'
 	pre = 'github'
+	weight = 1
 
 [[menu.footer]]   
         identifier = 'linkedin'
         name = 'LinkedIn'
         url = 'https://www.linkedin.com/in/kaimackall/'
         pre = 'linkedin'
+	weight = 2
+
+[[menu.footer]]
+	identifier = 'credly'
+	name = 'Credly'
+	url = 'https://www.credly.com/users/kai-mackall/'
+	pre = '<img src="/icons/credly.svg" alt="Credly" style="width:32px;height:32px;vertical-align:-12px;">'
+	weight = 3
