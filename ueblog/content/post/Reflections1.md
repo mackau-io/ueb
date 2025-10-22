@@ -1,7 +1,7 @@
 ---
-title: "Reflection 1"
+title: "Reflections 1"
 date: 2025-10-22
-draft: false
+draft: true
 tags: ["Cybersecurity"]
 categories: ["reflections"] 
 type: "post"

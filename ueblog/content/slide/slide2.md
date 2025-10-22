@@ -2,7 +2,7 @@
 type: "slide"
 title: "Explore My Projects"
 textColor: white
-weight: 2
+weight: 3
 params:
     headless: true
     target: "/projects/"

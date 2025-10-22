@@ -10,8 +10,16 @@ enableGitInfo = true
 	author = 'author'
 	stage = 'stage'
 
+[params]
+	AllowAIRobots = false
+	unifiedFooter = true
+
 [params.favicon]
 	svg = '/images/favicon.svg'
+
+[params.feed]
+	flowlines = true
+	flowlinesLimit = 10
 
 [params.home]
 	## Disable slide carousel
