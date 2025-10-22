@@ -18,8 +18,6 @@ theme = "hugo-brewm"
 	disableListing = false
 	## Select taxonomy listing to be featured
 	featuredListing = ['categories', 'author']
-	## include section nodes in json
-	includeSectionInJson = false
 
 [params.logo]
 	logoMark = '/images/logo.svg'
@@ -29,15 +27,53 @@ theme = "hugo-brewm"
 	colophon = true
 	## Show related content
 	related = true
-	## override maximum series/related post count
-	RelatedLimit = 5
-	## enable section numbering
-	secnum = false
 
 [params.search]
 	## Enable search functionality, please index your site first
 	enable = true
 	## Use pagefind search when javascript enabled, currently only 'pagefind' is supported, further options to be determined
 	pagefind = true
-        ## fallback searchbox when javascript disabled, currently the options limited to 'mojeek', otherwise duckduckgo will be used
-        # fallback = 'mojeek'
+
+[[menu.main]]
+        name = 'Home'
+        url = '/'
+	weight = 1
+
+[[menu.main]]
+        name = 'Resume'
+        url = '/resume/'
+        weight = 2
+
+[[menu.main]]
+        name = 'Blog'
+        url = '/post/'
+        weight = 3
+
+[[menu.main]]
+        name = 'About'
+        url = '/about/'
+        weight = 4	
+
+[[menu.main]]
+	identifier = 'github'
+        name = 'GitHub'
+        url = 'https://github.com/mackau-io'
+        pre = 'github'
+
+[[menu.main]]	
+	identifier = 'linkedin'
+	name = 'LinkedIn'
+	url = 'https://www.linkedin.com/in/kaimackall/'
+	pre = 'linkedin'
+
+[[menu.footer]]
+	identifier = 'github'
+	name = 'GitHub'
+	url = 'https://github.com/mackau-io'
+	pre = 'github'
+
+[[menu.footer]]   
+        identifier = 'linkedin'
+        name = 'LinkedIn'
+        url = 'https://www.linkedin.com/in/kaimackall/'
+        pre = 'linkedin'
