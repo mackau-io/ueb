@@ -1,8 +1,8 @@
 ---
 type: footer
-title: 'Main Footer Test'
+title: 'Test'
 weight: 1
 params:
     headless: true
 ---
-
+Test

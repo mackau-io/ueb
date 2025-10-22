@@ -8,6 +8,7 @@ enableGitInfo = true
 	category = 'categories'
 	tag = 'tags'
 	author = 'author'
+	stage = 'stage'
 
 [params.favicon]
 	svg = '/images/favicon.svg'
@@ -85,5 +86,5 @@ enableGitInfo = true
 	identifier = 'credly'
 	name = 'Credly'
 	url = 'https://www.credly.com/users/kai-mackall/'
-	pre = '<img src="/icons/credly.svg" alt="Credly" style="width:32px;height:32px;vertical-align:-12px;">'
+	pre = '<img src="/icons/credly.svg" alt="Credly" style="width:32px;height:32px;vertical-align:-14px;">'
 	weight = 3
