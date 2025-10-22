@@ -1,4 +1,7 @@
-baseURL = 'https://mackau-io.github.io'
-languageCode = 'en-us'
-title = 'Mackau Blog'
-theme = 'hugo-brewm'
+baseURL = "https://mackau-io.github.io"
+languageCode = "en-us"
+title = "Kai Mackall's Blog"
+theme = "hugo-brewm"
+
+[params.logo]
+  logoMark = "/images/logo.svg"
