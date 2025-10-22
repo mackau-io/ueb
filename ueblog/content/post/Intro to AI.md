@@ -3,7 +3,7 @@ title: "Intro to AI/ML"
 date: 2025-10-22
 draft: false
 tags: ["AI/ML", "Cybersecurity"]
-categories: ["writeups"] 
+categories: ["explainers"] 
 type: "post"
 stage: "seedling"
 ---

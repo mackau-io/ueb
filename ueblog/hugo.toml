@@ -1,6 +1,6 @@
 baseURL = "https://mackau-io.github.io"
 languageCode = "en-us"
-title = "Kai Mackall's Blog"
+title = "Kai Mackall"
 theme = "hugo-brewm"
 enableGitInfo = true
 

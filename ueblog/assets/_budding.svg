@@ -1,11 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1"
-  width="1em" height="1em" viewBox="0 0 60 60">
-  <defs>
-    <style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="1em"
+   height="1em"
+   viewBox="0 0 60 60"
+   id="svg4"
+   sodipodi:docname="_budding.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="13.683333"
+     inkscape:cx="30"
+     inkscape:cy="35.846529"
+     inkscape:window-width="1920"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <defs
+     id="defs1">
+    <style
+       type="text/css"
+       id="style1">
       path{stroke:gray;stroke-width:3;stroke-linecap:round;fill:none}
-      #lf>g{transform-origin:top center}
+      #lf&gt;g{transform-origin:top center}
       #lfr{animation:lfr 5s infinite}
       #lfl{animation:lfl 5s infinite}
       @keyframes lfr{
@@ -18,14 +48,25 @@
         50%{transform:translateX(calc(100% / 3))}}
     </style>
   </defs>
-  <g id="lf">
-    <g id="lfl">
-      <path d="M30 50c-11,0 -20,-9 -20,-20 M10 30c11,0 20,9 20,20"/>
-      <path d="M10 30c0,-11 9,-20 20,-20 M30 10c0,11 -9,20 -20,20"/>
+  <g
+     id="lf">
+    <g
+       id="lfl">
+      <path
+         d="M30 50c-11,0 -20,-9 -20,-20 M10 30c11,0 20,9 20,20"
+         id="path1" />
+      <path
+         d="M10 30c0,-11 9,-20 20,-20 M30 10c0,11 -9,20 -20,20"
+         id="path2" />
     </g>
-    <g id="lfr">
-      <path d="M30 10c11,0 20,9 20,20 M50 30c-11,0 -20,-9 -20,-20"/>
-      <path d="M50 30c0,11 -9,20 -20,20 M30 50c0,-11 9,-20 20,-20"/>
+    <g
+       id="lfr">
+      <path
+         d="M30 10c11,0 20,9 20,20 M50 30c-11,0 -20,-9 -20,-20"
+         id="path3" />
+      <path
+         d="M50 30c0,11 -9,20 -20,20 M30 50c0,-11 9,-20 20,-20"
+         id="path4" />
     </g>
   </g>
 </svg>
