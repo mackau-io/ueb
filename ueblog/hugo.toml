@@ -18,8 +18,10 @@ enableGitInfo = true
 	svg = '/images/favicon.svg'
 
 [params.feed]
+	OverrideFlowlinesDir = '/flowlines/'
 	flowlines = true
-	flowlinesLimit = 10
+	flowlinesLimit = 16
+	flowlinesExt = 'svg'
 
 [params.home]
 	## Disable slide carousel
