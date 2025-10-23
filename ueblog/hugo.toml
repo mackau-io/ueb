@@ -10,6 +10,9 @@ enableGitInfo = true
 	author = 'author'
 	stage = 'stage'
 
+[outputs]
+    home = ['html', 'rss', 'json']
+
 [params]
 	AllowAIRobots = false
 	unifiedFooter = true
@@ -68,15 +71,24 @@ enableGitInfo = true
 
 [[menu.main]]
 	identifier = 'github'
-        name = 'GitHub'
-        url = 'https://github.com/mackau-io'
-        pre = 'github'
+    name = ' '    
+    url = 'https://github.com/mackau-io'
+    pre = 'github'
+    weight = 4       
 
 [[menu.main]]	
 	identifier = 'linkedin'
-	name = 'LinkedIn'
+    name = ' '
 	url = 'https://www.linkedin.com/in/kaimackall/'
 	pre = 'linkedin'
+    weight = 5
+
+[[menu.main]]
+    identifier = 'credly'
+    name = ' '
+	url = 'https://www.credly.com/users/kai-mackall/'
+	pre = '<img src="/icons/credly.svg" alt="Credly" style="width:32px;height:32px;vertical-align:-16px;">'
+	weight = 6
 
 [[menu.footer]]
 	identifier = 'github'

@@ -1,8 +1,8 @@
 ---
 type: footer
-title: 'Test'
+title: ''
 weight: 1
 params:
     headless: true
 ---
-Test
+Built with Hugo · Theme: [hugo-brewm](https://github.com/foxihd/hugo-brewm)
