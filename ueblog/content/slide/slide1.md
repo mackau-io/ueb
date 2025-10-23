@@ -2,7 +2,7 @@
 type: "slide"
 title: "Latest Project"
 textColor: white
-cover: "images/28.svg"
+cover: "images/31.svg"
 weight: 1
 params:
     headless: true

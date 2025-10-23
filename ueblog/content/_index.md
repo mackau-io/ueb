@@ -1,5 +1,5 @@
 ---
-cover: 'images/22.svg'
+cover: 'images/3.svg'
 keepAspectRatio: true
 ---
 

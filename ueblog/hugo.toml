@@ -20,7 +20,7 @@ enableGitInfo = true
 [params.feed]
 	OverrideFlowlinesDir = '/flowlines/'
 	flowlines = true
-	flowlinesLimit = 16
+	flowlinesLimit = 28
 	flowlinesExt = 'svg'
 
 [params.home]
