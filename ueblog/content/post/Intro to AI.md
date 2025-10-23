@@ -1,7 +1,7 @@
 ---
 title: "Intro to AI/ML"
 date: 2025-10-22
-draft: false
+draft: true
 tags: ["AI/ML", "Cybersecurity"]
 categories: ["writeups"] 
 type: "post"
