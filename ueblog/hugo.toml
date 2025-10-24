@@ -1,4 +1,4 @@
-baseURL = "https://kaimackall.com"
+baseURL = "https://kaimackall.com/"
 languageCode = "en-us"
 title = "Kai Mackall"
 theme = "hugo-brewm"
@@ -77,7 +77,7 @@ enableGitInfo = true
     pre = 'github'
     weight = 4       
 
-[[menu.main]]	
+[[menu.main]]
 	identifier = 'linkedin'
     name = ' '
 	url = 'https://www.linkedin.com/in/kaimackall/'
@@ -98,7 +98,7 @@ enableGitInfo = true
 	pre = 'github'
 	weight = 1
 
-[[menu.footer]]   
+[[menu.footer]]
         identifier = 'linkedin'
         name = 'LinkedIn'
         url = 'https://www.linkedin.com/in/kaimackall/'
