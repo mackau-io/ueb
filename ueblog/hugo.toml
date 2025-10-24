@@ -56,7 +56,7 @@ enableGitInfo = true
      
 [[menu.main]]
         name = 'Blog'
-        url = '/post/'
+        url = 'blog.mackau-io.github.io'
         weight = 2
 
 [[menu.main]]
