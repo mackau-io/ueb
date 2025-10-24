@@ -1,8 +1,8 @@
 :root {
     /* default contrast */
-    --ac-light: #36c;
-    --fg-light: #111;
-    --bg-light: #f9f9fb;
+    --ac-light: #0ef;
+    --fg-light: #e7f2f2;
+    --bg-light: #181a1a;
     --midtone: gray;
     --fg-dark: #e7f2f2;
     --bg-dark: #181a1a;
