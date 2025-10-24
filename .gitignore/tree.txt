@@ -1,0 +1,714 @@
+.
+├── archetypes
+│   └── default.md
+├── assets
+│   ├── _budding.svg
+│   ├── css
+│   │   └── custom.css
+│   ├── _evergreen.svg
+│   ├── _grain.svg
+│   └── _seedling.svg
+├── content
+│   ├── about
+│   │   ├── _index.md
+│   │   └── resume
+│   │       └── _index.md
+│   ├── footerlink.md
+│   ├── footer.md
+│   ├── _index.md
+│   ├── post
+│   │   ├── Graduate Capstone Project.md
+│   │   ├── Intro to AI.md
+│   │   ├── News1.md
+│   │   ├── PCBuild.md
+│   │   ├── Reflections1.md
+│   │   ├── Tools1.md
+│   │   └── TryHackMe1.md
+│   ├── slide
+│   │   ├── slide1.md
+│   │   ├── slide2.md
+│   │   └── slide3.md
+│   └── stage
+│       ├── budding
+│       │   └── _index.md
+│       ├── evergreen
+│       │   └── _index.md
+│       ├── _index.md
+│       └── seedling
+│           └── _index.md
+├── data
+├── deploy.sh
+├── hugo.toml
+├── i18n
+├── layouts
+│   ├── _default
+│   │   ├── list.html
+│   │   └── list.json.json
+│   └── partials
+│       ├── footer.html
+│       ├── header.html
+│       └── nav.html
+├── public
+│   ├── 404.html
+│   ├── about
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── page
+│   │   │   └── 1
+│   │   │       └── index.html
+│   │   └── resume
+│   │       ├── index.html
+│   │       ├── index.xml
+│   │       ├── Kai Mackall Resume.pdf
+│   │       └── page
+│   │           └── 1
+│   │               └── index.html
+│   ├── author
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   └── page
+│   │       └── 1
+│   │           └── index.html
+│   ├── _budding.svg
+│   ├── categories
+│   │   ├── explainers
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── news
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── page
+│   │   │   └── 1
+│   │   │       └── index.html
+│   │   ├── projects
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── reflections
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   └── writeups
+│   │       ├── index.html
+│   │       ├── index.xml
+│   │       └── page
+│   │           └── 1
+│   │               └── index.html
+│   ├── css
+│   │   ├── fonts
+│   │   │   ├── base-ui.woff2
+│   │   │   ├── fonts.uri.txt
+│   │   │   ├── OpenDyslexicMono-Regular.woff2
+│   │   │   └── README.md
+│   │   └── hugo-brewm.min.css
+│   ├── extra-flowlines
+│   │   ├── 29.svg
+│   │   ├── 30.svg
+│   │   ├── 31.svg
+│   │   ├── 32.svg
+│   │   ├── 33.svg
+│   │   ├── 34.svg
+│   │   ├── 35.svg
+│   │   ├── 36.svg
+│   │   ├── 37.svg
+│   │   ├── 38.svg
+│   │   ├── 40.svg
+│   │   ├── 41.svg
+│   │   └── 42.svg
+│   ├── extras
+│   │   ├── 29.svg
+│   │   ├── 30.svg
+│   │   ├── 31.svg
+│   │   ├── 32.svg
+│   │   ├── 33.svg
+│   │   ├── 34.svg
+│   │   ├── 35.svg
+│   │   ├── 36.svg
+│   │   ├── 37.svg
+│   │   ├── 38.svg
+│   │   ├── 40.svg
+│   │   ├── 41.svg
+│   │   └── 42.svg
+│   ├── favicon2.svg
+│   ├── flowlines
+│   │   ├── 10.svg
+│   │   ├── 11.svg
+│   │   ├── 12.svg
+│   │   ├── 13.svg
+│   │   ├── 14.svg
+│   │   ├── 15.svg
+│   │   ├── 16.svg
+│   │   ├── 17.svg
+│   │   ├── 18.svg
+│   │   ├── 19.svg
+│   │   ├── 1.svg
+│   │   ├── 20.svg
+│   │   ├── 21.svg
+│   │   ├── 22.svg
+│   │   ├── 23.svg
+│   │   ├── 24.svg
+│   │   ├── 25.svg
+│   │   ├── 26.svg
+│   │   ├── 27.svg
+│   │   ├── 28.svg
+│   │   ├── 29.svg
+│   │   ├── 2.svg
+│   │   ├── 30.svg
+│   │   ├── 31.svg
+│   │   ├── 32.svg
+│   │   ├── 33.svg
+│   │   ├── 34.svg
+│   │   ├── 35.svg
+│   │   ├── 36.svg
+│   │   ├── 37.svg
+│   │   ├── 38.svg
+│   │   ├── 3.svg
+│   │   ├── 40.svg
+│   │   ├── 41.svg
+│   │   ├── 42.svg
+│   │   ├── 4.svg
+│   │   ├── 5.svg
+│   │   ├── 6.svg
+│   │   ├── 7.svg
+│   │   ├── 8.svg
+│   │   ├── 9.svg
+│   │   ├── extras
+│   │   │   ├── 29.svg
+│   │   │   ├── 30.svg
+│   │   │   ├── 31.svg
+│   │   │   ├── 32.svg
+│   │   │   ├── 33.svg
+│   │   │   ├── 34.svg
+│   │   │   ├── 35.svg
+│   │   │   ├── 36.svg
+│   │   │   ├── 37.svg
+│   │   │   ├── 38.svg
+│   │   │   ├── 40.svg
+│   │   │   ├── 41.svg
+│   │   │   └── 42.svg
+│   │   ├── svg
+│   │   └── Untitled Folder
+│   │       ├── 29.svg
+│   │       ├── 30.svg
+│   │       ├── 31.svg
+│   │       ├── 32.svg
+│   │       ├── 33.svg
+│   │       ├── 34.svg
+│   │       ├── 35.svg
+│   │       ├── 36.svg
+│   │       ├── 37.svg
+│   │       ├── 38.svg
+│   │       ├── 40.svg
+│   │       ├── 41.svg
+│   │       └── 42.svg
+│   ├── footer
+│   │   └── index.html
+│   ├── footerlink
+│   │   └── index.html
+│   ├── icons
+│   │   ├── credly.png
+│   │   ├── credly.svg
+│   │   ├── Credly.svg
+│   │   ├── icons8-credly-16.png
+│   │   ├── icons8-credly-32.png
+│   │   └── icons8-credly-64.png
+│   ├── icons8-credly-16.png
+│   ├── images
+│   │   ├── 1.svg
+│   │   ├── 21.svg
+│   │   ├── 22 (copy).svg
+│   │   ├── 22.svg
+│   │   ├── 22.svg.2025_10_22_15_06_38.0.svg
+│   │   ├── 28.svg
+│   │   ├── 29.svg
+│   │   ├── 2.svg
+│   │   ├── 31.svg
+│   │   ├── 32.svg
+│   │   ├── 3.svg
+│   │   ├── 42.svg
+│   │   ├── 4.svg
+│   │   ├── 5.svg
+│   │   ├── 6.svg
+│   │   ├── 6.svg (copy)
+│   │   ├── 7.svg
+│   │   ├── cover1.jpeg
+│   │   ├── cover1.svg
+│   │   ├── cover.svg
+│   │   ├── favicon2.svg
+│   │   ├── favicon (copy).svg
+│   │   ├── favicon.svg
+│   │   ├── hero.svg
+│   │   ├── icons8-credly-16.png
+│   │   ├── logo2.svg
+│   │   ├── logoipsum-custom-logo.svg
+│   │   ├── logo.svg
+│   │   └── proj.svg
+│   ├── index.html
+│   ├── index.json
+│   ├── index.xml
+│   ├── js
+│   │   └── hugo-brewm.min.js
+│   ├── page
+│   │   └── 1
+│   │       └── index.html
+│   ├── post
+│   │   ├── blogpost1
+│   │   │   └── index.html
+│   │   ├── configuring1
+│   │   │   └── index.html
+│   │   ├── graduate-capstone-project
+│   │   │   └── index.html
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── intro-to-ai
+│   │   │   └── index.html
+│   │   ├── mypost
+│   │   │   └── index.html
+│   │   ├── news1
+│   │   │   └── index.html
+│   │   ├── page
+│   │   │   └── 1
+│   │   │       └── index.html
+│   │   ├── pcbuild
+│   │   │   └── index.html
+│   │   ├── reflection1
+│   │   │   └── index.html
+│   │   ├── reflections1
+│   │   │   └── index.html
+│   │   ├── testpost
+│   │   │   └── index.html
+│   │   ├── testpostoct22
+│   │   │   └── index.html
+│   │   ├── tools1
+│   │   │   └── index.html
+│   │   ├── tryhackme1
+│   │   │   └── index.html
+│   │   └── writeup1
+│   │       └── index.html
+│   ├── README.md
+│   ├── resume
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── Kai Mackall Master Resume.pdf
+│   │   ├── Kai Mackall Resume.pdf
+│   │   └── page
+│   │       └── 1
+│   │           └── index.html
+│   ├── sitemap.xml
+│   ├── slide
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── page
+│   │   │   └── 1
+│   │   │       └── index.html
+│   │   ├── slide1
+│   │   │   └── index.html
+│   │   ├── slide2
+│   │   │   └── index.html
+│   │   └── slide3
+│   │       └── index.html
+│   ├── stage
+│   │   ├── budding
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   ├── page
+│   │   │   │   └── 1
+│   │   │   │       └── index.html
+│   │   │   └── Untitled Document
+│   │   ├── _budding.svg
+│   │   ├── evergreen
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   ├── page
+│   │   │   │   └── 1
+│   │   │   │       └── index.html
+│   │   │   └── Untitled Document
+│   │   ├── _evergreen.svg
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── page
+│   │   │   └── 1
+│   │   │       └── index.html
+│   │   ├── seedling
+│   │   │   ├── index.html
+│   │   │   ├── _index.ms
+│   │   │   ├── index.xml
+│   │   │   ├── page
+│   │   │   │   └── 1
+│   │   │   │       └── index.html
+│   │   │   └── Untitled Document
+│   │   ├── _seedling.svg
+│   │   └── Untitled Document
+│   ├── svg
+│   │   └── 1.svg
+│   ├── tags
+│   │   ├── ai
+│   │   │   └── ml
+│   │   │       ├── index.html
+│   │   │       ├── index.xml
+│   │   │       └── page
+│   │   │           └── 1
+│   │   │               └── index.html
+│   │   ├── blog
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── ctf
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── cybersecurity
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── homelab
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── hugo
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── incidents
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── page
+│   │   │   └── 1
+│   │   │       └── index.html
+│   │   ├── #test
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── test
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── tools
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── tryhackme
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   └── writeups
+│   │       ├── index.html
+│   │       ├── index.xml
+│   │       └── page
+│   │           └── 1
+│   │               └── index.html
+│   └── Untitled Folder
+├── static
+│   ├── extra-flowlines
+│   │   ├── 29.svg
+│   │   ├── 30.svg
+│   │   ├── 31.svg
+│   │   ├── 32.svg
+│   │   ├── 33.svg
+│   │   ├── 34.svg
+│   │   ├── 35.svg
+│   │   ├── 36.svg
+│   │   ├── 37.svg
+│   │   ├── 38.svg
+│   │   ├── 40.svg
+│   │   ├── 41.svg
+│   │   └── 42.svg
+│   ├── flowlines
+│   │   ├── 10.svg
+│   │   ├── 11.svg
+│   │   ├── 12.svg
+│   │   ├── 13.svg
+│   │   ├── 14.svg
+│   │   ├── 15.svg
+│   │   ├── 16.svg
+│   │   ├── 17.svg
+│   │   ├── 18.svg
+│   │   ├── 19.svg
+│   │   ├── 1.svg
+│   │   ├── 20.svg
+│   │   ├── 21.svg
+│   │   ├── 22.svg
+│   │   ├── 23.svg
+│   │   ├── 24.svg
+│   │   ├── 25.svg
+│   │   ├── 26.svg
+│   │   ├── 27.svg
+│   │   ├── 28.svg
+│   │   ├── 2.svg
+│   │   ├── 3.svg
+│   │   ├── 4.svg
+│   │   ├── 5.svg
+│   │   ├── 6.svg
+│   │   ├── 7.svg
+│   │   ├── 8.svg
+│   │   └── 9.svg
+│   ├── icons
+│   │   └── credly.svg
+│   └── images
+│       ├── 1.svg
+│       ├── 21.svg
+│       ├── 22.svg
+│       ├── 28.svg
+│       ├── 29.svg
+│       ├── 2.svg
+│       ├── 31.svg
+│       ├── 32.svg
+│       ├── 3.svg
+│       ├── 42.svg
+│       ├── 4.svg
+│       ├── 5.svg
+│       ├── 6.svg
+│       ├── 7.svg
+│       ├── cover1.jpeg
+│       ├── cover1.svg
+│       ├── cover.svg
+│       ├── favicon.svg
+│       ├── hero.svg
+│       ├── logo.svg
+│       └── proj.svg
+└── themes
+    └── hugo-brewm
+        ├── archetypes
+        │   └── default.md
+        ├── assets
+        │   ├── base-ui.json
+        │   ├── _budding.svg
+        │   ├── css
+        │   │   ├── component
+        │   │   │   ├── a11y.css
+        │   │   │   ├── background.css
+        │   │   │   ├── breadcrumb.css
+        │   │   │   ├── card.css
+        │   │   │   ├── carousel.css
+        │   │   │   ├── clock.css
+        │   │   │   ├── column.css
+        │   │   │   ├── contentinfo.css
+        │   │   │   ├── fediverse.css
+        │   │   │   ├── garden.css
+        │   │   │   ├── hero.css
+        │   │   │   ├── keyframe.css
+        │   │   │   ├── link.css
+        │   │   │   ├── logotype.css
+        │   │   │   ├── mainfooter.css
+        │   │   │   ├── marginpar.css
+        │   │   │   ├── menu.css
+        │   │   │   ├── pagefind.css
+        │   │   │   ├── search.css
+        │   │   │   ├── share.css
+        │   │   │   ├── skipper.css
+        │   │   │   └── slide.css
+        │   │   ├── custom.css
+        │   │   ├── layout
+        │   │   │   └── _default
+        │   │   │       ├── baseof.css
+        │   │   │       ├── home.css
+        │   │   │       ├── list.css
+        │   │   │       └── single.css
+        │   │   ├── media
+        │   │   │   └── print.css
+        │   │   ├── optimize.css
+        │   │   ├── support.css
+        │   │   ├── typeface
+        │   │   │   ├── Cormorant.css
+        │   │   │   ├── Crimson.css
+        │   │   │   ├── EBGaramond.css
+        │   │   │   ├── icon.css
+        │   │   │   ├── Inconsolata.css
+        │   │   │   ├── Inter.css
+        │   │   │   ├── LexicaUltralegible.css
+        │   │   │   ├── Montserrat.css
+        │   │   │   ├── OpenDyslexic.css
+        │   │   │   ├── Rosario.css
+        │   │   │   └── websafe.css
+        │   │   ├── typeface-local
+        │   │   │   ├── Cormorant.css
+        │   │   │   ├── Crimson.css
+        │   │   │   ├── EBGaramond.css
+        │   │   │   ├── icon.css
+        │   │   │   ├── Inconsolata.css
+        │   │   │   ├── Inter.css
+        │   │   │   ├── LexicaUltralegible.css
+        │   │   │   ├── Montserrat.css
+        │   │   │   ├── OpenDyslexic.css
+        │   │   │   └── Rosario.css
+        │   │   ├── typesetting
+        │   │   │   ├── default.css
+        │   │   │   ├── sectioning.css
+        │   │   │   └── _template.css
+        │   │   └── verbatim.css
+        │   ├── _evergreen.svg
+        │   ├── _grain.svg
+        │   ├── js
+        │   │   ├── accessibility.js
+        │   │   ├── bionread.js
+        │   │   ├── bsky-comments.js
+        │   │   ├── default.js
+        │   │   ├── extras.js
+        │   │   ├── fediverse.js
+        │   │   └── qrcode.js
+        │   └── _seedling.svg
+        ├── config.toml
+        ├── exampleSite
+        │   ├── assets
+        │   │   └── css
+        │   │       └── custom.css
+        │   ├── config
+        │   │   └── _default
+        │   │       ├── hugo.toml
+        │   │       ├── languages.toml
+        │   │       ├── menus.en.toml
+        │   │       └── menus.id.toml
+        │   └── content
+        │       ├── en
+        │       │   ├── author
+        │       │   │   ├── A.N. Other
+        │       │   │   │   └── _index.md
+        │       │   │   └── author-name
+        │       │   │       └── _index.md
+        │       │   ├── footer link2.md
+        │       │   ├── footer link.md
+        │       │   ├── footer.md
+        │       │   ├── _index.md
+        │       │   ├── pin.md
+        │       │   ├── post
+        │       │   │   ├── authoring-cover-images-and-audio-article.md
+        │       │   │   ├── authoring-custom-taxonomy.md
+        │       │   │   ├── authoring-redaction-history.md
+        │       │   │   ├── authoring-terms-entry.md
+        │       │   │   ├── configure-discussion.md
+        │       │   │   ├── configure-logo-and-accent-color.md
+        │       │   │   ├── configure-main-footer.md
+        │       │   │   ├── configure-menu.md
+        │       │   │   ├── configure-pagefind.md
+        │       │   │   ├── configure-slides.md
+        │       │   │   ├── _index.md
+        │       │   │   ├── markdown-test.md
+        │       │   │   └── tufte-features.md
+        │       │   ├── rss.md
+        │       │   ├── slide.md
+        │       │   └── stage
+        │       │       ├── budding
+        │       │       │   ├── _index.en.md
+        │       │       │   └── _index.id.md
+        │       │       ├── evergreen
+        │       │       │   ├── _index.en.md
+        │       │       │   └── _index.id.md
+        │       │       ├── _index.en.md
+        │       │       ├── _index.id.md
+        │       │       └── seedling
+        │       │           ├── _index.en.md
+        │       │           └── _index.id.md
+        │       └── id
+        │           ├── _index.md
+        │           └── pos
+        │               ├── _index.md
+        │               ├── mengatur-diskusi.md
+        │               ├── mengatur-entri-terms.md
+        │               ├── mengatur-footer-situs.md
+        │               ├── mengatur-logo-dan-aksen-warna.md
+        │               ├── mengatur-menu.md
+        │               ├── mengatur-pagefind.md
+        │               ├── mengatur-riwayat-redaksi.md
+        │               ├── mengatur-sampul-dan-audio.md
+        │               ├── mengatur-slide.md
+        │               └── tes-markdown.md
+        ├── i18n
+        │   ├── en.toml
+        │   ├── es_mx.toml
+        │   ├── hi.toml
+        │   └── id.toml
+        ├── images
+        │   ├── screenshot.png
+        │   └── tn.png
+        ├── layouts
+        │   ├── 404.html
+        │   ├── _default
+        │   │   ├── baseof.html
+        │   │   ├── list.html
+        │   │   ├── rss.xml
+        │   │   ├── single.html
+        │   │   └── sitemap.xml
+        │   ├── index.json
+        │   ├── _markup
+        │   │   └── render-link.html
+        │   ├── partials
+        │   │   ├── a11y.html
+        │   │   ├── analytics.html
+        │   │   ├── bundles
+        │   │   │   ├── branch.html
+        │   │   │   └── leaf.html
+        │   │   ├── fediverse.html
+        │   │   ├── footer.html
+        │   │   ├── _funcs
+        │   │   │   └── get-page-images.html
+        │   │   ├── giscus.html
+        │   │   ├── head
+        │   │   │   ├── css.html
+        │   │   │   ├── js.html
+        │   │   │   └── meta.html
+        │   │   ├── header.html
+        │   │   ├── head.html
+        │   │   ├── i18n.html
+        │   │   ├── menu.html
+        │   │   ├── nav.html
+        │   │   └── search.html
+        │   ├── robots.txt
+        │   └── shortcodes
+        │       ├── epigraph.html
+        │       ├── figure.html
+        │       ├── include.html
+        │       ├── marginnote.html
+        │       ├── marginpar.html
+        │       ├── network-graph.html
+        │       ├── pin.html
+        │       ├── rss.html
+        │       ├── section.html
+        │       ├── theorem.html
+        │       └── vis-network.html.redacted
+        ├── LICENSE
+        ├── README.md
+        ├── static
+        │   └── css
+        │       └── fonts
+        │           ├── base-ui.woff2
+        │           ├── fonts.uri.txt
+        │           ├── OpenDyslexicMono-Regular.woff2
+        │           └── README.md
+        └── theme.toml
+
+188 directories, 524 files
