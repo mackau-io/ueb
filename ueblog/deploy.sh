@@ -4,11 +4,6 @@ set -e
 # Build the site with the correct theme
 hugo
 
-# Commit and push main repo changes
-git add .
-git commit -m "Site update: $(date '+%Y-%m-%d %H:%M')"
-git push origin main
-
 # Go into the public folder
 cd public
 
@@ -20,3 +15,9 @@ git add .
 git commit -m "Deploy site: $(date '+%Y-%m-%d %H:%M')"
 git push origin main
 cd ..
+
+# Commit and push main repo changes
+git add .
+git commit -m "Site update: $(date '+%Y-%m-%d %H:%M')"
+git push origin main
+
