@@ -2,10 +2,7 @@
 set -e
 
 # Build the site with the correct theme
-hugo -t hugo-brewm
-
-# Ensure we're on the right branch
-git checkout main
+hugo
 
 # Commit and push main repo changes
 git add .
@@ -19,7 +16,6 @@ cd public
 git pull origin main
 
 # Deploy public
-cd public
 git add .
 git commit -m "Deploy site: $(date '+%Y-%m-%d %H:%M')"
 git push origin main
