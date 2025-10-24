@@ -55,19 +55,20 @@ enableGitInfo = true
 	weight = 1
      
 [[menu.main]]
-        name = 'Blog'
-        url = 'blog.mackau-io.github.io'
-        weight = 2
-
-[[menu.main]]
         name = 'About'
         url = '/about/'
-        weight = 3
+        weight = 2
+
+	[[menu.main]]
+		name = 'Resume'
+		url = '/about/resume/'  
+		parent = 'About'
+
 
 [[menu.main]]
-	name = 'Resume'
-	url = '/about/resume/'	
-	parent = 'About'
+        name = 'Blog'
+        url = '/blog/'
+        weight = 3
 
 [[menu.main]]
 	identifier = 'github'
