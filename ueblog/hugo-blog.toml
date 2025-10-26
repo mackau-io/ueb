@@ -23,7 +23,7 @@ enableGitInfo = true
 [params.feed]
 	OverrideFlowlinesDir = '/flowlines/'
 	flowlines = true
-	flowlinesLimit = 28
+	flowlinesLimit = 1
 	flowlinesExt = 'svg'
 
 [params.home]
@@ -50,8 +50,8 @@ enableGitInfo = true
 	pagefind = true
 
 [[menu.main]]
-        name = 'Home'
-        url = 'https://kaimackall.com'
+        name = 'Portfolio'
+        url = 'https://www.kaimackall.com'
 	weight = 1
 
 [[menu.main]]
