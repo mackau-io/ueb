@@ -8,26 +8,32 @@ title: 'Resume'
 #### WORK EXPERIENCE & PROJECTS
 **Tennessee Technological University** | Cookeville, TN | May 2021 - Aug 2021  
 Cybersecurity Research Intern  
-●​​ Conducted cybersecurity risk analysis across 16 critical infrastructure sectors; documented mitigation strategies and
-compliance gaps  
-●​ Mapped multiple regulatory frameworks (NIST, FISMA, CMMC) to enterprise use cases, identifying overlaps and
-optimization points  
+●​​ Conducted cybersecurity risk analysis across 16 critical infrastructure sectors, identifying compliance gaps and mitigation strategies  
+●​ Mapped key frameworks (NIST, FISMA, CMMC) to enterprise use cases, optimizing security controls  
 
 **Cybersecurity Blog & Website** | Oct 2025 - Present  
-●​ Built and deployed a personal website using Hugo and GitHub Pages; manage all content updates, SEO optimization, and
-CI/CD automation via GitHub Actions  
-●​ Applied HTML, CSS, and Markdown for responsive design and accessibility compliance aligned with W3C standards  
+●​ Designed and maintained a secure, version-controlled website using Hugo, GitHub Pages, and Git submodules for
+theme management  
+●​ Configured DNS, HTTPS, and CI/CD automation for reliable deployments using Bash scripting and GitHub Actions  
+●​ Deployed a modular site architecture supporting separate portfolio and blog subdomains  
 
 **Cybersecurity Homelab** | May 2021 - Present  
 ●​ Built and maintained a multi-VM lab (Kali, Security Onion, REMnux) simulating enterprise environments  
-●​ Provided Tier 1–2 style IT support by diagnosing and resolving 25+ hardware, software, and OS issues; perform regular
-updates and document resolutions  
-●​ Configured and tested IDS/IPS tools (Snort, Wazuh, etc.) for network traffic analysis and performance improvement  
+●​ Provided Tier 1–2 style IT support by diagnosing and resolving 25+ hardware, software, and OS issues; perform
+regular updates and document resolutions  
+●​ Configured and tested IDS/IPS tools for network traffic analysis and performance improvement  
 
 **Software Engineering Project – VR Experience** | Dec 2022 - May 2023  
 ●​ Collaborated in a 5-person Agile team to design, code, and deploy a Unity-based VR application  
 ●​ Led technical documentation, QA testing, and post-sprint bug resolution cycles  
 ●​ Coordinated feedback integration with faculty and company stakeholders  
+
+**IT Security Project – Simulated Enterprise Network**| Sep 2021 – Dec 2021
+●​ Collaborated with a teammate to configure and maintain a multi-OS web server environment using Windows 10,
+Windows Server 2016, and Debian  
+●​ Created and managed Active Directory users/groups, applying access control policies to secure system resources  
+●​ Configured and tested pfSense firewall rules to control network traffic and protect against unauthorized access  
+●​ Maintained a detailed changelog documenting config changes, troubleshooting steps, and system updates  
 
 #### EDUCATION
 **Western Governors University**, Expected Jan 2026  
@@ -55,4 +61,4 @@ GPA (Inclusive Combined): 3.66/4.0 — Cum Laude
 ●​ Ranked in the top 5% nationally in Spring 2025 season  
 ●​ Solved real-world IT challenges in web app exploitation, network traffic analysis, and log analysis  
 ●​ Developed strong analytical, troubleshooting, and documentation skills under timed conditions  
-●​ Score report: https://cyberskyline.com/report/A16G2WBWBPUT
+●​ [Spring 2025 Score Report →](https://cyberskyline.com/report/A16G2WBWBPUT)  
