@@ -13,3 +13,5 @@ technical auditing) and how they connect to building secure, reliable systems. I
 problem-solving with practical technology skills to help improve security and efficiency in any environment.  
 
 Here, I share projects, insights, and notes from my journey in cybersecurity and technology.
+
+- [Resume](/about/resume)
