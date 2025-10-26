@@ -4,11 +4,11 @@ title = "Kai Mackall"
 theme = "hugo-brewm"
 enableGitInfo = true
 
-[taxonomies]
-	category = 'categories'
-	tag = 'tags'
-	author = 'author'
-	stage = 'stage'
+#[taxonomies]
+	#category = 'categories'
+	#tag = 'tags'
+	#author = 'author'
+	#stage = 'stage'
 
 [outputs]
     home = ['html', 'rss', 'json']
@@ -20,11 +20,11 @@ enableGitInfo = true
 [params.favicon]
 	svg = '/images/favicon.svg'
 
-[params.feed]
-	OverrideFlowlinesDir = '/flowlines/'
-	flowlines = true
-	flowlinesLimit = 28
-	flowlinesExt = 'svg'
+#[params.feed]
+	#OverrideFlowlinesDir = '/flowlines/'
+	#flowlines = true
+	#flowlinesLimit = 28
+	#flowlinesExt = 'svg'
 
 [params.home]
 	## Disable slide carousel
@@ -37,7 +37,7 @@ enableGitInfo = true
 [params.logo]
 	logoMark = '/images/logo.svg'
 
-[params.posts]
+#[params.posts]
 	## Show colophon section (including QR code)
 	##colophon = true
 	## Show related content
