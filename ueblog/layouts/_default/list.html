@@ -104,7 +104,7 @@
             {{- $changeFreq := or .Params.Sitemap.ChangeFreq .Sitemap.ChangeFreq | lower }}
             {{- $active := eq $changeFreq (or "always" "hourly" "daily" "weekly") }}
 
-{{/* REMOVE RECENT POSTS SECTION
+            {{/* REMOVE RECENT POSTS SECTION
             <section id="list-posts" class="pagewidth" {{ if not .IsHome }} aria-labelledby="list-post-heading"{{ end }}>
                 <header {{ with .Data.Singular }}id="{{ . }}"{{ end }} class="section-title">
                     <strong id="list-post-heading">
@@ -162,7 +162,7 @@
                     {{- end }}
                 {{- end }}
             </section>
-*/}}
+            */}}
         {{- else }}
             {{- /*
 
