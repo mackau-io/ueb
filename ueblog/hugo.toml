@@ -13,6 +13,9 @@ enableGitInfo = true
 [outputs]
     home = ['html', 'rss', 'json']
 
+[sitemap]
+    disable = true
+
 [params]
 	AllowAIRobots = false
 	unifiedFooter = true
