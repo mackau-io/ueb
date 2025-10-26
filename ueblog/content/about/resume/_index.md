@@ -46,8 +46,8 @@ GPA (Inclusive Combined): 3.66/4.0 — Cum Laude
 **Communication & Collaboration**: Customer Service · Technical Documentation · Cross-Team Coordination · Clear Written & Verbal Communication  
 
 #### CERTIFICATIONS
-[**CompTIA CySA+** | Expires 2028](/about/'CompTIA CySA+ ce certificate-1.pdf')  
-[**ISC2 CC** | Expires 2027](/about/document.pdf)  
+[**CompTIA CySA+** | Expires 2028 →](/about/CompTIACySA+cert.pdf)  
+[**ISC2 CC** | Expires 2027 →](/about/ISC2CCcert.pdf)  
 **CompTIA PenTest+** | Expected Nov 2025  
 
 #### COMPETITION EXPERIENCE
