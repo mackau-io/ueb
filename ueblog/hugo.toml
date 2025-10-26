@@ -30,18 +30,18 @@ enableGitInfo = true
 	## Disable slide carousel
 	disableSlide = false
 	## Disable taxonomy listing carousel
-	disableListing = false
+	disableListing = true
 	## Select taxonomy listing to be featured
-	featuredListing = ['categories', 'author']
+	## featuredListing = ['categories', 'author']
 
 [params.logo]
 	logoMark = '/images/logo.svg'
 
 [params.posts]
 	## Show colophon section (including QR code)
-	colophon = true
+	##colophon = true
 	## Show related content
-	related = true
+	##related = true
 
 [params.search]
 	## Enable search functionality, please index your site first
@@ -50,35 +50,35 @@ enableGitInfo = true
 	pagefind = true
 
 [[menu.main]]
-        name = 'Home'
-        url = '/'
-	weight = 1
+    name = 'Home'
+    url = '/'
+    weight = 1
 
 [[menu.main]]
-        name = 'Blog'
-        url = 'https://blog.kaimackall.com'
-        weight = 2
+    name = 'Blog'
+    url = 'https://blog.kaimackall.com'
+    weight = 2
 
 [[menu.main]]
 	identifier = 'github'
     name = ' '    
     url = 'https://github.com/mackau-io'
     pre = 'github'
-    weight = 4       
+    weight = 3
 
 [[menu.main]]
 	identifier = 'linkedin'
     name = ' '
 	url = 'https://www.linkedin.com/in/kaimackall/'
 	pre = 'linkedin'
-    weight = 5
+    weight = 4
 
 [[menu.main]]
     identifier = 'credly'
     name = ' '
 	url = 'https://www.credly.com/users/kai-mackall/'
 	pre = '<img src="/icons/credly.svg" alt="Credly" style="width:32px;height:32px;vertical-align:-16px;">'
-	weight = 6
+	weight = 5
 
 [[menu.footer]]
 	identifier = 'github'
