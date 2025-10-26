@@ -50,14 +50,9 @@ enableGitInfo = true
 	pagefind = true
 
 [[menu.main]]
-    name = 'Home'
-    url = '/'
-    weight = 1
-
-[[menu.main]]
     name = 'Blog'
     url = 'https://blog.kaimackall.com'
-    weight = 2
+    weight = 1
 
 [[menu.main]]
 	identifier = 'github'
