@@ -1,0 +1,102 @@
+baseURL = "https://blog.kaimackall.com/"
+languageCode = "en-us"
+title = "Kai's Blog"
+theme = "hugo-brewm"
+enableGitInfo = true
+
+[taxonomies]
+	category = 'categories'
+	tag = 'tags'
+	author = 'author'
+	stage = 'stage'
+
+[outputs]
+    home = ['html', 'rss', 'json']
+
+[params]
+	AllowAIRobots = false
+	unifiedFooter = true
+
+[params.favicon]
+	svg = '/images/favicon.svg'
+
+[params.feed]
+	OverrideFlowlinesDir = '/flowlines/'
+	flowlines = true
+	flowlinesLimit = 28
+	flowlinesExt = 'svg'
+
+[params.home]
+	## Disable slide carousel
+	disableSlide = true
+	## Disable taxonomy listing carousel
+	disableListing = false
+	## Select taxonomy listing to be featured
+	featuredListing = ['categories', 'author']
+
+[params.logo]
+	logoMark = '/images/logo.svg'
+
+[params.posts]
+	## Show colophon section (including QR code)
+	colophon = true
+	## Show related content
+	related = true
+
+[params.search]
+	## Enable search functionality, please index your site first
+	enable = true
+	## Use pagefind search when javascript enabled, currently only 'pagefind' is supported, further options to be determined
+	pagefind = true
+
+[[menu.main]]
+        name = 'Home'
+        url = 'https://kaimackall.com'
+	weight = 1
+
+[[menu.main]]
+        name = 'Blog'
+        url = '#'
+        weight = 2
+
+[[menu.main]]
+	identifier = 'github'
+    name = ' '    
+    url = 'https://github.com/mackau-io'
+    pre = 'github'
+    weight = 4       
+
+[[menu.main]]
+	identifier = 'linkedin'
+    name = ' '
+	url = 'https://www.linkedin.com/in/kaimackall/'
+	pre = 'linkedin'
+    weight = 5
+
+[[menu.main]]
+    identifier = 'credly'
+    name = ' '
+	url = 'https://www.credly.com/users/kai-mackall/'
+	pre = '<img src="/icons/credly.svg" alt="Credly" style="width:32px;height:32px;vertical-align:-16px;">'
+	weight = 6
+
+[[menu.footer]]
+	identifier = 'github'
+	name = 'GitHub'
+	url = 'https://github.com/mackau-io'
+	pre = 'github'
+	weight = 1
+
+[[menu.footer]]
+        identifier = 'linkedin'
+        name = 'LinkedIn'
+        url = 'https://www.linkedin.com/in/kaimackall/'
+        pre = 'linkedin'
+	weight = 2
+
+[[menu.footer]]
+	identifier = 'credly'
+	name = 'Credly'
+	url = 'https://www.credly.com/users/kai-mackall/'
+	pre = '<img src="/icons/credly.svg" alt="Credly" style="width:32px;height:32px;vertical-align:-14px;">'
+	weight = 3
