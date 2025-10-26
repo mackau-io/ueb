@@ -5,7 +5,7 @@ textColor: white
 weight: 2
 params:
     headless: true
-    target: "/post/"
+    target: "https://blog.kaimackall.com/posts/"
 ---
 
 Short analyses on security trends, CTF writeups, and my research notes.
