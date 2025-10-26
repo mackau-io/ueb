@@ -132,9 +132,7 @@
                         {{- end }}
                     </strong>
                 </header>
-                {{- /*
-
-                    list post */}}
+                <!-- list post -->
                 {{- $liViewCondition := or $active (and (eq .Kind "term") (eq .Data.Plural "series") ) }}
                 {{- if $liViewCondition }}
                     {{ template "li" . }}
@@ -153,9 +151,7 @@
                         {{ template "card" (dict "page" $page "paginator" $paginator "counter" $counter "desc" $desc "hasCover" $hasCover "alt" $alt "author" $author "authors" $authors "stage" $stage) }}
                     {{- end }}
                     </div>
-                    {{/*
-
-                        paginator navigation */}}
+                    <!-- paginator navigation -->
                     {{- if or .Paginator.HasPrev .Paginator.HasNext }}
                         <hr class="hide">
                         {{- partial "nav.html" (dict "navID" "pagination" "page" .) }}
@@ -163,6 +159,7 @@
                 {{- end }}
             </section>
             */}}
+
         {{- else }}
             {{- /*
 

@@ -86,11 +86,11 @@ enableGitInfo = true
 	weight = 1
 
 [[menu.footer]]
-        identifier = 'linkedin'
-        name = 'LinkedIn'
-        url = 'https://www.linkedin.com/in/kaimackall/'
-        pre = 'linkedin'
-	weight = 2
+    identifier = 'linkedin'
+    name = 'LinkedIn'
+    url = 'https://www.linkedin.com/in/kaimackall/'
+    pre = 'linkedin'
+    weight = 2
 
 [[menu.footer]]
 	identifier = 'credly'
