@@ -14,4 +14,4 @@ problem-solving with practical technology skills to help improve security and ef
 
 Here, I share projects, insights, and notes from my journey in cybersecurity and technology.
 
-- [Resume →](/about/resume)
+[Resume →](/about/resume)
