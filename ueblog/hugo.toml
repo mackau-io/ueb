@@ -53,22 +53,11 @@ enableGitInfo = true
         name = 'Home'
         url = '/'
 	weight = 1
-     
-[[menu.main]]
-        name = 'About'
-        url = '/about/'
-        weight = 2
-
-	[[menu.main]]
-		name = 'Resume'
-		url = '/about/resume/'  
-		parent = 'About'
-
 
 [[menu.main]]
         name = 'Blog'
         url = 'https://blog.kaimackall.com'
-        weight = 3
+        weight = 2
 
 [[menu.main]]
 	identifier = 'github'
