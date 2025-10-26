@@ -1,0 +1,43 @@
+
+{
+    "nodes": [{
+                "id": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                "title": "My First PC Build",
+                "permalink": "https://blog.kaimackall.com/posts/pcbuild/",
+                "type": "post"
+            },
+                        {
+                            "id": "categories-writeups",
+                            "title": "Writeups",
+                            "permalink": "https://blog.kaimackall.com/categories/writeups/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "tags-cybersecurity",
+                            "title": "Cybersecurity",
+                            "permalink": "https://blog.kaimackall.com/tags/cybersecurity/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-homelab",
+                            "title": "Homelab",
+                            "permalink": "https://blog.kaimackall.com/tags/homelab/",
+                            "type": "tags"
+                        },
+    ],
+    "links": [
+            
+                    {
+                        "source": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                        "target": "categories-writeups",
+                    },
+                    {
+                        "source": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                        "target": "tags-homelab",
+                    },
+                    {
+                        "source": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                        "target": "tags-cybersecurity",
+                    },
+    ],
+}
