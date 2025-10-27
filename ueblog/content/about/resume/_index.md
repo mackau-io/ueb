@@ -28,7 +28,7 @@ regular updates and document resolutions
 ●​ Led technical documentation, QA testing, and post-sprint bug resolution cycles  
 ●​ Coordinated feedback integration with faculty and company stakeholders  
 
-**IT Security Project – Simulated Enterprise Network**| Sep 2021 – Dec 2021
+**IT Security Project – Simulated Enterprise Network**| Sep 2021 – Dec 2021  
 ●​ Collaborated with a teammate to configure and maintain a multi-OS web server environment using Windows 10,
 Windows Server 2016, and Debian  
 ●​ Created and managed Active Directory users/groups, applying access control policies to secure system resources  
