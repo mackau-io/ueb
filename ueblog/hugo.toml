@@ -18,7 +18,7 @@ enableGitInfo = true
 
 [params]
 	AllowAIRobots = false
-	unifiedFooter = false
+	unifiedFooter = true
 
 [params.favicon]
 	svg = '/images/favicon.svg'
