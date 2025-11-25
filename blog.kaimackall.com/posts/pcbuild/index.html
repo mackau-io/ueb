@@ -6,9 +6,10 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My First PC Build | Kai&#39;s Blog</title>
+<title>My PC Build and vHomelab: A 6 Month Retrospective | Kai&#39;s Blog</title>
 <meta name="author" content="">
-<meta name="description" content="CPU: Intel Core i5-10400 GPU: GeForce RTX 3060 Lite Hash Rate Motherboard: ASRock H510M-HDV/M.2 SE RAM: TEAMGROUP T-Force Vulcan Z DDR4 16GB Kit …" >
+<meta name="description" content="I built my PC and officially started my virtual homelab in late May 2025, so I thought it would be a good idea to do a bit of a retrospective.
+When I …" >
 <meta name="keywords" content="Homelab,Cybersecurity">
 <link rel="canonical" href="https://blog.kaimackall.com/posts/pcbuild/">
 
@@ -74,10 +75,10 @@
                     
     
         <li role="presentation" >
-    <a   class=on-deck href=https://kaimackall.com rel=external noopener noreferrer nofollow target=_blank>
+    <a   class=on-deck href=https://www.kaimackall.com rel=external noopener noreferrer nofollow target=_blank>
         
             <span>
-                Home</span>
+                Portfolio</span>
     </a>
         </li>
         <li role="presentation" >
@@ -205,7 +206,7 @@
             </a>
         </li>
     <li>
-        <a href="" aria-current="page" tabindex="-1">My First PC Build
+        <a href="" aria-current="page" tabindex="-1">My PC Build and vHomelab: A 6 Month Retrospective
         </a>
     </li>
             </ul>
@@ -232,25 +233,185 @@
         <h1 id="title"
                 data-pagefind-meta="title"
             data-bionRead-safe
-            >My First PC Build</h1>
+            >My PC Build and vHomelab: A 6 Month Retrospective</h1>
             <div id="doc-author" class="textsw author">
             </div>
             <!-- timestamp.html-->
     <div class="date-has-label">
-        <time class="doc-publish-date" datetime="2025-10-22T00:00:00&#43;00:00" data-time-label="Published on">October 22, 2025</time><time class="doc-lastmod-date" datetime="2025-10-24T12:56:33-05:00" data-time-label="Modified on">October 24, 2025</time>
+        <time class="doc-publish-date" datetime="2025-11-25T00:00:00&#43;00:00" data-time-label="Published on">November 25, 2025</time><time class="doc-lastmod-date" datetime="2025-11-24T16:51:13-06:00" data-time-label="Modified on">November 24, 2025</time>
     </div>
         </header>
         <!-- audio.html -->
         <section aria-labelledby="title" id="content" data-bionRead-safe>
-                <h3 id="cpu-intel-core-i5-10400">CPU: Intel Core i5-10400</h3>
-<h3 id="gpu-geforce-rtx-3060-lite-hash-rate">GPU: GeForce RTX 3060 Lite Hash Rate</h3>
-<h3 id="motherboard-asrock-h510m-hdvm2-se">Motherboard: ASRock H510M-HDV/M.2 SE</h3>
-<h3 id="ram-teamgroup-t-force-vulcan-z-ddr4-16gb-kit-2x8gb">RAM: TEAMGROUP T-Force Vulcan Z DDR4 16GB Kit (2x8GB)</h3>
-<h3 id="storage-kingspec-m2-ssd-1tb--samsung-t7-portable-ssd-1tb">Storage: KingSpec M2 SSD 1TB &amp; Samsung T7 Portable SSD 1TB</h3>
-<h3 id="psu-evga-500-bq">PSU: EVGA 500 BQ</h3>
-<h3 id="case-cooler-master-q300l-v2-micro-atx-tower">Case: Cooler Master Q300L V2 Micro-ATX Tower</h3>
-<h3 id="fans-arctic-p12-pro-a-rgb-3-pack">Fans: Arctic P12 Pro A-RGB (3 pack)</h3>
-<h3 id="os-linux-mint-222-cinnamon">OS: Linux Mint 22.2 Cinnamon</h3>
+                <p>I built my PC and officially started my virtual homelab in late May 2025, so I thought it would be a good idea to do a bit of a retrospective.</p>
+<p>When I first decided to build a homelab, my goal was simple: create a safe place to experiment with real-world IT concepts without breaking my actual computer. I didn’t expect the process to teach me so much about hardware compatibility, troubleshooting, system administration, and structured problem-solving.</p>
+<p>In this post, I’ll walk through how I built my homelab from start to finish, what challenges I ran into, and the skills I gained along the way. If you’re thinking about building your own, this guide should give you an idea of what to expect.</p>
+<hr>
+<h2 id="why-i-built-a-virtual-homelab"><strong>Why I Built a Virtual Homelab</strong></h2>
+<p>A little bit of background: I technically started my homelab on my HP laptop running Windows 10. I used it for CTFs, coursework, and playing around with VMs. But I eventually ran into a few issues (mainly with storage space and performance) and decided I needed an upgrade. So I went into this project with some prior experience, but I wanted to gain more hands-on experience with:</p>
+<ul>
+<li>
+<p>Virtual machines</p>
+</li>
+<li>
+<p>Windows and Linux administration</p>
+</li>
+<li>
+<p>Networking and firewall configuration</p>
+</li>
+<li>
+<p>System troubleshooting</p>
+</li>
+<li>
+<p>Automating updates and maintenance</p>
+</li>
+</ul>
+<p>I had learned these concepts academically, but learning them <em>hands-on</em> and from the ground up is a completely different experience. A homelab gave me a safe, controlled environment to break things and fix them, and (most importantly) to really challenge myself and apply the skills I learned in class.</p>
+<hr>
+<h2 id="selecting-components-and-making-sure-they-actually-worked-together"><strong>Selecting Components (and Making Sure They Actually Worked Together)</strong></h2>
+<p>The first step was building my first PC from scratch. I didn’t want to break the bank, but I needed reliable virtualization performance.</p>
+<p>Here’s what I looked for:</p>
+<ul>
+<li>
+<p><strong>CPU support for virtualization</strong></p>
+</li>
+<li>
+<p><strong>At least 16GB of RAM</strong> so I could run multiple VMs</p>
+</li>
+<li>
+<p><strong>SSD or NVMe storage</strong> to reduce VM boot times</p>
+</li>
+<li>
+<p>A motherboard with enough SATA and M.2 slots for expansion</p>
+</li>
+</ul>
+<p>I spent a lot of time cross-checking each part for compatibility, which started with PC Part Picker and some research via Google. I also ended up using manufacturer spec sheets and PC building forums for extra guidance. This process alone taught me more about hardware selection than any class I&rsquo;ve taken.</p>
+<h2 id="my-build">My Build:</h2>
+<h5 id="heres-a-list-of-the-components-i-went-with">Here&rsquo;s a list of the components I went with:</h5>
+<h5 id="cpu-intel-core-i5-10400">CPU: Intel Core i5-10400</h5>
+<p>Probably the hardest thing to pin down. I was pretty confident when looking for all of the other components, but the CPU was definitely the thing I researched and second-guessed the most. I&rsquo;m a casual gamer, the games I play aren&rsquo;t that demanding so I knew I didn&rsquo;t need a CPU capable of things like overclocking.</p>
+<h5 id="gpu-geforce-rtx-3060-lite-hash-rate">GPU: GeForce RTX 3060 Lite Hash Rate</h5>
+<p>My last and probably most regrettable purchase. It works fine for the most part, but I can definitely see myself upgrading in the future.</p>
+<h5 id="motherboard-asrock-h510m-hdvm2-se">Motherboard: ASRock H510M-HDV/M.2 SE</h5>
+<p>To be honest, I didn&rsquo;t really get the difference between ATX and micro-ATX motherboards (beyond compatibility with other components).</p>
+<h5 id="ram-teamgroup-t-force-vulcan-z-ddr4-16gb-kit-2x8gb">RAM: TEAMGROUP T-Force Vulcan Z DDR4 16GB Kit (2x8GB)</h5>
+<h5 id="storage-kingspec-m2-ssd-1tb--samsung-t7-portable-ssd-1tb">Storage: KingSpec M2 SSD 1TB &amp; Samsung T7 Portable SSD 1TB</h5>
+<h5 id="psu-evga-500-bq">PSU: EVGA 500 BQ</h5>
+<h5 id="case-cooler-master-q300l-v2-micro-atx-tower">Case: Cooler Master Q300L V2 Micro-ATX Tower</h5>
+<p>This case is pretty small (it is a micro-ATX tower after all). I&rsquo;ve heard mixed reviews about it, but I went with it out of convenience. I cared more about the other components than I did about the case. It&rsquo;s not terrible, it&rsquo;s affordable and suits my needs.</p>
+<h5 id="fans-arctic-p12-pro-a-rgb-3-pack">Fans: Arctic P12 Pro A-RGB (3 pack)</h5>
+<p>Funny story, I really didn&rsquo;t want RGB-anything in my PC at first. I was content with using the Cooler Master fans that came with the case, but after a few months I realized that their performance wasn&rsquo;t all that great for my needs. I came across these Arctic RGB fans and I caved. They were surprisingly affordable and I&rsquo;d heard good things about them, so no complaints here (except for one, which I&rsquo;ll get into later). They look quite nice too, so that&rsquo;s a plus.</p>
+<h5 id="os-linux-mint-222-cinnamon">OS: Linux Mint 22.2 Cinnamon</h5>
+<p>This deserves its own little section. Going into this project, I knew I wanted my PC to use a Linux distro. I&rsquo;ve used Windows machines pretty much my entire life, and occasionally used MacOS machines in school. Before competing in my first CTF about 5 years ago, I had zero experience with Linux. But after getting comfortable with it, I realized there are a lot of things Linux has that Windows doesn&rsquo;t (and a lot of things Linux doesn&rsquo;t have that Windows does&hellip;the bloatware). I wanted something lightweight and user-friendly, but also highly customizable, and Linux Mint checked every box.
+The only downside is that there are a few apps that aren&rsquo;t compatible with Linux that I wish I could use (which aren&rsquo;t supported by Wine either, sadly). But I think this is a good trade-off. I can always use my Windows laptop for those things anyway.
+%% Side note about my only very minor issue with the RGB fans: it has nothing to do with the fans and everything to do with the fact that there are almost no solutions that allow you to change the colors of the fans <em>on Linux Machines</em>. Sure, we have OpenRGB, but the fans I bought aren&rsquo;t compatible with the app sadly. Again, very minor issue that was fixed by purchasing an LED switch. But hopefully they expand the list of compatible devices, or come out with a Linux-friendly solution. %%</p>
+<hr>
+<h2 id="setting-up-the-environment"><strong>Setting Up the Environment</strong></h2>
+<p>Once the machine was assembled and Linux Mint was installed, I set up <strong>VirtualBox</strong> to manage my VMs.</p>
+<p>My initial lab included:</p>
+<ul>
+<li>
+<p><strong>Kali Linux VM</strong></p>
+</li>
+<li>
+<p><strong>REMnux VM</strong></p>
+</li>
+<li>
+<p><strong>Windows 11 VM</strong></p>
+</li>
+<li>
+<p><strong>Windows Server 2025 VM</strong> (recently added)</p>
+</li>
+<li>
+<p><strong>pfSense</strong> as a virtual firewall</p>
+</li>
+</ul>
+<p>Kali and REMnux were migrated directly from my old laptop. I was especially excited about Windows Server 2025 since I had only used Server 2016 before, and I wanted to see what had changed.</p>
+<hr>
+<h2 id="the-problems-i-ran-into-and-what-they-taught-me"><strong>The Problems I Ran Into (And What They Taught Me)</strong></h2>
+<h3 id="1-boot-issues--bios-settings"><strong>1. Boot Issues &amp; BIOS Settings</strong></h3>
+<p>The system didn’t recognize my bootable USB drive at first.<br>
+It turned out that secure boot was enabled and legacy USB booting was disabled. Fixing this required exploring BIOS options I hadn’t touched before.</p>
+<h3 id="2-network-connectivity-problems"><strong>2. Network Connectivity Problems</strong></h3>
+<p>Some VMs couldn’t reach each other. After troubleshooting, I realized the issue was a misconfigured VirtualBox network adapter.</p>
+<p>I learned to:</p>
+<ul>
+<li>
+<p>Switch between NAT, bridged, and host-only networking</p>
+</li>
+<li>
+<p>Set up port forwarding</p>
+</li>
+<li>
+<p>Use tools like <code>ip a</code>, <code>ping</code>, and <code>traceroute</code> to diagnose issues</p>
+</li>
+</ul>
+<h3 id="4-gpu-issues"><strong>4. GPU Issues</strong></h3>
+<p><strong>Problem:</strong><br>
+After installing a refurbished Nvidia GPU, my display suddenly developed a persistent green tint. This issue is surprisingly common with certain refurbished cards and seems to stem from incorrect color output settings or a problematic default display mode. At first, I tried fixing it through the Nvidia Settings GUI, adjusting color profiles and display modes. These changes worked temporarily, but the settings would reset every time I rebooted, bringing the green tint back. I also tried reinstalling the drivers, which also didn&rsquo;t work.</p>
+<p><strong>Root Cause (Likely):</strong><br>
+Nvidia Settings does not persist certain display-mode overrides unless they’re explicitly applied through a config file or set at runtime. In my case, the default display mode wasn’t retaining the <em>ForceCompositionPipeline</em> setting, which helps correct the tint issue.</p>
+<p><strong>Interim Solution:</strong><br>
+Until I find a permanent fix (likely through an updated xorg.conf file or a persistent script), I apply the following command after each reboot:</p>
+<pre tabindex="0"><code>nvidia-settings --assign CurrentMetaMode=&#34;HDMI-0: 1920x1080_100_0 {ForceCompositionPipeline=On}&#34;
+</code></pre><p>This forces the correct display mode and removes the green tint immediately.</p>
+<p><strong>Next Steps:</strong><br>
+I’m currently testing a more permanent solution using a custom X11 configuration and startup scripts so the setting applies automatically on boot.</p>
+<h3 id="3-automating-updates"><strong>3. Automating Updates</strong></h3>
+<p>I set up <strong>cron jobs</strong> on Linux to handle:</p>
+<ul>
+<li>
+<p>Security updates</p>
+</li>
+<li>
+<p>Log cleanup</p>
+</li>
+<li>
+<p>Service restarts</p>
+</li>
+</ul>
+<p>This was my first real experience using automation to maintain a system without manually touching it every day.</p>
+<hr>
+<h2 id="skills-i-gained"><strong>Skills I Gained</strong></h2>
+<p>By the time my homelab stabilized, I had practical experience with:</p>
+<ul>
+<li>
+<p>Troubleshooting hardware and OS issues</p>
+</li>
+<li>
+<p>Installing and configuring Linux Mint</p>
+</li>
+<li>
+<p>Configuring VMs (Kali Linux, REMnux, Windows 11)</p>
+</li>
+<li>
+<p>Managing user accounts and permissions</p>
+</li>
+<li>
+<p>Setting up and testing firewall rules</p>
+</li>
+<li>
+<p>Documenting changes so I could recreate or revert configurations</p>
+</li>
+<li>
+<p>Using command line tools as part of daily administration</p>
+</li>
+</ul>
+<p>The amount I learned from doing all this hands-on was honestly more valuable than just reading about it.</p>
+<hr>
+<h2 id="final-thoughts-and-plans-going-forward"><strong>Final Thoughts and Plans Going Forward</strong></h2>
+<p>This project has easily been one of the most rewarding technical projects I’ve done. It helped me bridge the gap between theory and practice, and it gave me confidence to apply for IT roles knowing I had real experience troubleshooting systems. Looking back on what I learned, I&rsquo;m quite proud of my progress. I have <strong>a lot</strong> of things I want to build in the future, but right now I&rsquo;m looking into expanding my set-up by building a Plex server.</p>
+<p>If you’re still on the fence about building one, I highly recommend it. Start small, break things, fix them, and document <strong>everything</strong>. You’ll learn more than you expect.</p>
+<p>Here are some sites and resources I used that really helped me through this process:
+PC building forums:
+<a href="https://pcpartpicker.com/forums/" target="_blank" rel="external noopener noreferrer nofollow">https://pcpartpicker.com/forums/</a>
+<a href="https://www.reddit.com/r/buildapc/" target="_blank" rel="external noopener noreferrer nofollow">https://www.reddit.com/r/buildapc/</a>
+<a href="https://forums.mysuperpc.com/" target="_blank" rel="external noopener noreferrer nofollow">https://forums.mysuperpc.com/</a>
+Compatibility:
+<a href="https://pcpartpicker.com/" target="_blank" rel="external noopener noreferrer nofollow">https://pcpartpicker.com/</a>
+Green screen issue:
+<a href="https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/512571/green-ish-screen-after-change-to-a-customized-reso/" target="_blank" rel="external noopener noreferrer nofollow">https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/512571/green-ish-screen-after-change-to-a-customized-reso/</a></p>
+<h2 id="also-be-sure-to-check-out-my-other-write-ups-in-this-one-i-walk-through-how-to-set-up-a-vm-on-virtualbox">Also be sure to check out my other write-ups! In this one, I walk through how to set up a VM on VirtualBox:</h2>
 
         </section>
             <footer>
@@ -269,14 +430,19 @@
     <hr class="hide" style="margin: 1in 0;">
     <div id="contentinfo" class="pagewidth" role="contentinfo" data-pagefind-ignore="all">
                 <!-- related.html -->
+    <nav id="related" aria-label="You might also like"><strong class="section-title">You might also like</strong>
+                <ol>
+                    <li><a href="/posts/azureoutage/">Azure Outage</a></li>
+                </ol>
+    </nav>
                 <!-- colophon.html -->
     <div id="colophon" style="display: none;" aria-live="polite">
         <strong class="section-title">Colophon</strong>
         <div>
             <div id="qr" role="img" aria-label="QR code"></div>
             <div class="verbose">
-                <div class="has-aria-label-top" aria-label="My First PC Build"><span>https://blog.kaimackall.com/posts/pcbuild/</span></div>
-                <div><span>This page is built on: </span><time datetime="2025-10-26T17:25:54-05:00">2025-10-26 17:25</time></div>
+                <div class="has-aria-label-top" aria-label="My PC Build and vHomelab: A 6 Month Retrospective"><span>https://blog.kaimackall.com/posts/pcbuild/</span></div>
+                <div><span>This page is built on: </span><time datetime="2025-11-24T18:54:47-06:00">2025-11-24 18:54</time></div>
                 <div><span>This page is accessed on: </span><time id="time-stamp"></time></div><div><span>Powered by </span><a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <a href="https://github.com/gohugoio/hugo/releases/tag/v0.151.0" aria-label="Hugo 0.151.0" target="_blank" rel="noopener">v0.151.0</a> & <a href="https://github.com/foxihd/hugo-brewm" target="_blank" rel="noopener">hugo-brewm</a>.</div>
             </div>
         </div>
@@ -286,11 +452,11 @@
             <strong class="section-title">Redaction History</strong>
             <ol aria-label="Redaction History">
                 <li>
-                    <time datetime="2025-10-22T00:00:00&#43;00:00">October 22, 2025</time>
+                    <time datetime="2025-11-25T00:00:00&#43;00:00">November 25, 2025</time>
                     <span>(Published)</span>
                 </li>
                 <li>
-                    <time datetime="2025-10-24T12:56:33-05:00">October 24, 2025</time>
+                    <time datetime="2025-11-24T16:51:13-06:00">November 24, 2025</time>
                     <span>(Modified)</span>
                 </li>
             </ol>
@@ -315,7 +481,7 @@
 	
 	    
         	<p class="text-sm text-gray-500 mt-4">
-            	Page last edited on October 22, 2025 at 2:39 PM
+            	Page last edited on November 24, 2025 at 4:51 PM
         	</p>
     	
             <div id="unified-footer">

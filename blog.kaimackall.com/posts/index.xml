@@ -6,13 +6,21 @@
     <description>Recent Posts in Posts on Kai&#39;s Blog</description>
     <generator>Hugo 0.151.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Oct 2025 17:25:54 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 18:54:47 -0600</lastBuildDate>
     <atom:link href="https://blog.kaimackall.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First PC Build</title>
+      <title>My PC Build and vHomelab: A 6 Month Retrospective</title>
       <link>https://blog.kaimackall.com/posts/pcbuild/</link>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.kaimackall.com/posts/pcbuild/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Azure Outage</title>
+      <link>https://blog.kaimackall.com/posts/azureoutage/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.kaimackall.com/posts/azureoutage/</guid>
       <description></description>
       
     </item>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Kai&#39;s Blog</title>
+    <link>https://blog.kaimackall.com/about/</link>
+    <description>Recent Posts in About on Kai&#39;s Blog</description>
+    <generator>Hugo 0.151.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Nov 2025 18:54:47 -0600</lastBuildDate>
+    <atom:link href="https://blog.kaimackall.com/about/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

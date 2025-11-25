@@ -2,10 +2,21 @@
 {
     "nodes": [{
                 "id": "b6a24c4ffe3b4df100e2c61f28a15b7c",
-                "title": "My First PC Build",
+                "title": "My PC Build and vHomelab: A 6 Month Retrospective",
                 "permalink": "https://blog.kaimackall.com/posts/pcbuild/",
                 "type": "post"
+            },{
+                "id": "d903c6c2d6f7a15fa094585cda4337cc",
+                "title": "Azure Outage",
+                "permalink": "https://blog.kaimackall.com/posts/azureoutage/",
+                "type": "post"
             },
+                        {
+                            "id": "categories-news",
+                            "title": "News",
+                            "permalink": "https://blog.kaimackall.com/categories/news/",
+                            "type": "categories"
+                        },
                         {
                             "id": "categories-writeups",
                             "title": "Writeups",
@@ -37,6 +48,15 @@
                     },
                     {
                         "source": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                        "target": "tags-cybersecurity",
+                    },
+            
+                    {
+                        "source": "d903c6c2d6f7a15fa094585cda4337cc",
+                        "target": "categories-news",
+                    },
+                    {
+                        "source": "d903c6c2d6f7a15fa094585cda4337cc",
                         "target": "tags-cybersecurity",
                     },
     ],

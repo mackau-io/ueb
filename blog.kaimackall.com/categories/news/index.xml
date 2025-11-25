@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Kai&#39;s Blog</title>
+    <link>https://blog.kaimackall.com/categories/news/</link>
+    <description>Recent Posts in News on Kai&#39;s Blog</description>
+    <generator>Hugo 0.151.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Nov 2025 18:54:47 -0600</lastBuildDate>
+    <atom:link href="https://blog.kaimackall.com/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Outage</title>
+      <link>https://blog.kaimackall.com/posts/azureoutage/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.kaimackall.com/posts/azureoutage/</guid>
+      <description></description>
+      
+    </item>
+  </channel>
+</rss>
