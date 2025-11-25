@@ -1,7 +1,7 @@
 ---
 title: "My PC Build and vHomelab: A 6 Month Retrospective"
 date: 2025-11-25
-draft: true
+draft: false
 tags: ["Homelab", "Cybersecurity"]
 categories: ["writeups"] 
 type: "post"

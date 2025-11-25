@@ -1,9 +1,9 @@
 
 {
     "nodes": [{
-                "id": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                "id": "fefa085d47dbfd9bb1c5b445bfea0a1a",
                 "title": "My PC Build and vHomelab: A 6 Month Retrospective",
-                "permalink": "https://blog.kaimackall.com/posts/pcbuild/",
+                "permalink": "https://blog.kaimackall.com/posts/pcbuildhomelab/",
                 "type": "post"
             },{
                 "id": "d903c6c2d6f7a15fa094585cda4337cc",
@@ -39,15 +39,15 @@
     "links": [
             
                     {
-                        "source": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                        "source": "fefa085d47dbfd9bb1c5b445bfea0a1a",
                         "target": "categories-writeups",
                     },
                     {
-                        "source": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                        "source": "fefa085d47dbfd9bb1c5b445bfea0a1a",
                         "target": "tags-homelab",
                     },
                     {
-                        "source": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                        "source": "fefa085d47dbfd9bb1c5b445bfea0a1a",
                         "target": "tags-cybersecurity",
                     },
             
