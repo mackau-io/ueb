@@ -6,7 +6,7 @@
     <description>Recent Posts in Categories on Kai&#39;s Blog</description>
     <generator>Hugo 0.151.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Nov 2025 14:57:42 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 15:36:59 -0600</lastBuildDate>
     <atom:link href="https://blog.kaimackall.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writeups</title>
@@ -21,6 +21,22 @@
       <link>https://blog.kaimackall.com/categories/news/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.kaimackall.com/categories/news/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://blog.kaimackall.com/categories/projects/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.kaimackall.com/categories/projects/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Reflections</title>
+      <link>https://blog.kaimackall.com/categories/reflections/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.kaimackall.com/categories/reflections/</guid>
       <description></description>
       
     </item>

@@ -6,9 +6,44 @@
                 "permalink": "https://blog.kaimackall.com/posts/pcbuildhomelab/",
                 "type": "post"
             },{
+                "id": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                "title": "My PC Build and vHomelab: A 6 Month Retrospective",
+                "permalink": "https://blog.kaimackall.com/posts/pcbuild/",
+                "type": "post"
+            },{
                 "id": "d903c6c2d6f7a15fa094585cda4337cc",
                 "title": "Azure Outage",
                 "permalink": "https://blog.kaimackall.com/posts/azureoutage/",
+                "type": "post"
+            },{
+                "id": "53fe1c7b942f0f1f5136f61904407352",
+                "title": "AWS Outage",
+                "permalink": "https://blog.kaimackall.com/posts/news1/",
+                "type": "post"
+            },{
+                "id": "e03b2c8b51d573cda06216db75297474",
+                "title": "Configuring Firewall Rules",
+                "permalink": "https://blog.kaimackall.com/posts/tools1/",
+                "type": "post"
+            },{
+                "id": "38549a99443513e080c21007bcc26fe1",
+                "title": "Graduate Capstone Project",
+                "permalink": "https://blog.kaimackall.com/posts/graduate-capstone-project/",
+                "type": "post"
+            },{
+                "id": "800daf952491a78345f02aa143025389",
+                "title": "Intro to AI/ML",
+                "permalink": "https://blog.kaimackall.com/posts/intro-to-ai/",
+                "type": "post"
+            },{
+                "id": "28675dfb73da1230db2368b6cc352968",
+                "title": "Reflections 1",
+                "permalink": "https://blog.kaimackall.com/posts/reflections1/",
+                "type": "post"
+            },{
+                "id": "c118010e9864eb23ee0eaa93640f1b42",
+                "title": "TryHackMe 1",
+                "permalink": "https://blog.kaimackall.com/posts/tryhackme1/",
                 "type": "post"
             },
                         {
@@ -18,10 +53,34 @@
                             "type": "categories"
                         },
                         {
+                            "id": "categories-projects",
+                            "title": "Projects",
+                            "permalink": "https://blog.kaimackall.com/categories/projects/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-reflections",
+                            "title": "Reflections",
+                            "permalink": "https://blog.kaimackall.com/categories/reflections/",
+                            "type": "categories"
+                        },
+                        {
                             "id": "categories-writeups",
                             "title": "Writeups",
                             "permalink": "https://blog.kaimackall.com/categories/writeups/",
                             "type": "categories"
+                        },
+                        {
+                            "id": "tags-aiml",
+                            "title": "AI/ML",
+                            "permalink": "https://blog.kaimackall.com/tags/ai/ml/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-ctf",
+                            "title": "CTF",
+                            "permalink": "https://blog.kaimackall.com/tags/ctf/",
+                            "type": "tags"
                         },
                         {
                             "id": "tags-cybersecurity",
@@ -33,6 +92,24 @@
                             "id": "tags-homelab",
                             "title": "Homelab",
                             "permalink": "https://blog.kaimackall.com/tags/homelab/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-incidents",
+                            "title": "Incidents",
+                            "permalink": "https://blog.kaimackall.com/tags/incidents/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-tools",
+                            "title": "Tools",
+                            "permalink": "https://blog.kaimackall.com/tags/tools/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-tryhackme",
+                            "title": "TryHackMe",
+                            "permalink": "https://blog.kaimackall.com/tags/tryhackme/",
                             "type": "tags"
                         },
     ],
@@ -52,11 +129,98 @@
                     },
             
                     {
+                        "source": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                        "target": "categories-writeups",
+                    },
+                    {
+                        "source": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                        "target": "tags-homelab",
+                    },
+                    {
+                        "source": "b6a24c4ffe3b4df100e2c61f28a15b7c",
+                        "target": "tags-cybersecurity",
+                    },
+            
+                    {
                         "source": "d903c6c2d6f7a15fa094585cda4337cc",
                         "target": "categories-news",
                     },
                     {
                         "source": "d903c6c2d6f7a15fa094585cda4337cc",
+                        "target": "tags-cybersecurity",
+                    },
+            
+                    {
+                        "source": "53fe1c7b942f0f1f5136f61904407352",
+                        "target": "categories-news",
+                    },
+                    {
+                        "source": "53fe1c7b942f0f1f5136f61904407352",
+                        "target": "tags-incidents",
+                    },
+                    {
+                        "source": "53fe1c7b942f0f1f5136f61904407352",
+                        "target": "tags-cybersecurity",
+                    },
+            
+                    {
+                        "source": "e03b2c8b51d573cda06216db75297474",
+                        "target": "categories-writeups",
+                    },
+                    {
+                        "source": "e03b2c8b51d573cda06216db75297474",
+                        "target": "tags-tools",
+                    },
+                    {
+                        "source": "e03b2c8b51d573cda06216db75297474",
+                        "target": "tags-cybersecurity",
+                    },
+            
+                    {
+                        "source": "38549a99443513e080c21007bcc26fe1",
+                        "target": "categories-projects",
+                    },
+                    {
+                        "source": "38549a99443513e080c21007bcc26fe1",
+                        "target": "tags-cybersecurity",
+                    },
+            
+                    {
+                        "source": "800daf952491a78345f02aa143025389",
+                        "target": "categories-writeups",
+                    },
+                    {
+                        "source": "800daf952491a78345f02aa143025389",
+                        "target": "tags-aiml",
+                    },
+                    {
+                        "source": "800daf952491a78345f02aa143025389",
+                        "target": "tags-cybersecurity",
+                    },
+            
+                    {
+                        "source": "28675dfb73da1230db2368b6cc352968",
+                        "target": "categories-reflections",
+                    },
+                    {
+                        "source": "28675dfb73da1230db2368b6cc352968",
+                        "target": "tags-cybersecurity",
+                    },
+            
+                    {
+                        "source": "c118010e9864eb23ee0eaa93640f1b42",
+                        "target": "categories-writeups",
+                    },
+                    {
+                        "source": "c118010e9864eb23ee0eaa93640f1b42",
+                        "target": "tags-ctf",
+                    },
+                    {
+                        "source": "c118010e9864eb23ee0eaa93640f1b42",
+                        "target": "tags-tryhackme",
+                    },
+                    {
+                        "source": "c118010e9864eb23ee0eaa93640f1b42",
                         "target": "tags-cybersecurity",
                     },
     ],
