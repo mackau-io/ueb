@@ -71,7 +71,8 @@ Funny story, I really didn't want RGB-anything in my PC at first. I was content 
 ##### OS: Linux Mint 22.2 Cinnamon
 This deserves its own little section. Going into this project, I knew I wanted my PC to use a Linux distro. I've used Windows machines pretty much my entire life, and occasionally used MacOS machines in school. Before competing in my first CTF about 5 years ago, I had zero experience with Linux. But after getting comfortable with it, I realized there are a lot of things Linux has that Windows doesn't (and a lot of things Linux doesn't have that Windows does...the bloatware). I wanted something lightweight and user-friendly, but also highly customizable, and Linux Mint checked every box. 
 The only downside is that there are a few apps that aren't compatible with Linux that I wish I could use (which aren't supported by Wine either, sadly). But I think this is a good trade-off. I can always use my Windows laptop for those things anyway.
-%% Side note about my only very minor issue with the RGB fans: it has nothing to do with the fans and everything to do with the fact that there are almost no solutions that allow you to change the colors of the fans *on Linux Machines*. Sure, we have OpenRGB, but the fans I bought aren't compatible with the app sadly. Again, very minor issue that was fixed by purchasing an LED switch. But hopefully they expand the list of compatible devices, or come out with a Linux-friendly solution. %%
+
+Side note about my only very minor issue with the RGB fans: it has nothing to do with the fans and everything to do with the fact that there are almost no solutions that allow you to change the colors of the fans *on Linux Machines*. Sure, we have OpenRGB, but the fans I bought aren't compatible with the app sadly. Again, very minor issue that was fixed by purchasing an LED switch. But hopefully they expand the list of compatible devices, or come out with a Linux-friendly solution.
 
 ---
 
@@ -92,7 +93,7 @@ My initial lab included:
 - **pfSense** as a virtual firewall
     
 
-Kali and REMnux were migrated directly from my old laptop. I was especially excited about Windows Server 2025 since I had only used Server 2016 before, and I wanted to see what had changed.
+The Kali and REMnux VMs were migrated directly from my old laptop. I was especially excited about Windows Server 2025 since I had only used Server 2016 before, and I wanted to see what had changed.
 
 ---
 
@@ -176,15 +177,15 @@ This project has easily been one of the most rewarding technical projects I’ve
 
 If you’re still on the fence about building one, I highly recommend it. Start small, break things, fix them, and document **everything**. You’ll learn more than you expect.
 
-Here are some sites and resources I used that really helped me through this process:
- PC building forums:
-	 https://pcpartpicker.com/forums/
-	 https://www.reddit.com/r/buildapc/
-	 https://forums.mysuperpc.com/
- Compatibility: 
-	 https://pcpartpicker.com/
- Green screen issue: 
-	 https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/512571/green-ish-screen-after-change-to-a-customized-reso/
+Here are some sites and resources I used that really helped me through this process:  
+ PC building forums:  
+	 https://pcpartpicker.com/forums/  
+	 https://www.reddit.com/r/buildapc/  
+	 https://forums.mysuperpc.com/  
+ Compatibility:  
+	 https://pcpartpicker.com/  
+ Green screen issue:  
+	 https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/512571/green-ish-screen-after-change-to-a-customized-reso/  
 
 Also be sure to check out my other write-ups! In this one, I walk through how to set up a VM on VirtualBox:
 -
