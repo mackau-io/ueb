@@ -4,6 +4,6 @@ date: 2025-10-22
 draft: true
 tags: ["Cybersecurity"]
 categories: ["projects"] 
-type: "post"
+type: post
 stage: "seedling"
 ---

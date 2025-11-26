@@ -4,6 +4,6 @@ date: 2025-11-25
 draft: false
 tags: ["Tools", "Cybersecurity"]
 categories: ["writeups"] 
-type: "post"
+type: post
 stage: "budding"
 ---

@@ -1,9 +1,11 @@
 ---
+author: ["Kai Mackall"]
 title: "TryHackMe 1"
-date: 2025-10-22
+description: "My TryHackMe Journal"
+date: 2025-11-28
 draft: true
 tags: ["CTF", "TryHackMe", "Cybersecurity"]
 categories: ["writeups"] 
-type: "post"
+type: post
 stage: "budding"
 ---

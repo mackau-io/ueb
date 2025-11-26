@@ -4,7 +4,7 @@ date: 2025-10-22
 draft: true
 tags: ["AI/ML", "Cybersecurity"]
 categories: ["writeups"] 
-type: "post"
+type: post
 stage: "seedling"
 ---
 #### Artificial Intelligence
