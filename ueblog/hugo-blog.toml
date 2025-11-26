@@ -23,7 +23,7 @@ enableGitInfo = true
 [params.feed]
 	OverrideFlowlinesDir = '/flowlines/'
 	flowlines = true
-	flowlinesLimit = 1
+	flowlinesLimit = 28
 	flowlinesExt = 'svg'
 
 [params.home]
@@ -32,7 +32,7 @@ enableGitInfo = true
 	## Disable taxonomy listing carousel
 	disableListing = false
 	## Select taxonomy listing to be featured
-	featuredListing = ['categories', 'author']
+	featuredListing = ['categories']
 
 [params.logo]
 	logoMark = '/images/logo.svg'
