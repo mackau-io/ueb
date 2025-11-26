@@ -2,7 +2,7 @@
 title: "Intro to AI/ML"
 date: 2025-10-22
 draft: true
-tags: ["AI/ML", "Cybersecurity"]
+tags: ["ai/ml", "cybersecurity"]
 categories: ["writeups"] 
 type: post
 stage: "seedling"

@@ -4,7 +4,7 @@ title: "My PC Build and vHomelab: A 6-Month Retrospective"
 description: "A comprehensive look into everything I've learned since building my PC and lab"
 date: 2025-11-25
 draft: false
-tags: ["Homelab", "Cybersecurity"]
+tags: ["homelab", "cybersecurity"]
 categories: ["writeups"] 
 type: post
 stage: "budding"
