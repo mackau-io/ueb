@@ -1,4 +1,4 @@
-baseURL = "https://blog.kaimackall.com/"
+baseURL = "https://blog.key-blogger.com/"
 languageCode = "en-us"
 title = "key-blogger | Blog"
 theme = "hugo-brewm"
@@ -18,7 +18,7 @@ enableGitInfo = true
 	unifiedFooter = true
 
 [params.favicon]
-	svg = '/images/favicon.svg'
+	svg = '/images/kbfavicon.svg'
 
 [params.feed]
 	OverrideFlowlinesDir = '/flowlines/'

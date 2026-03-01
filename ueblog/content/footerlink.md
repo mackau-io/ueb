@@ -1,5 +1,5 @@
 ---
 type: 'footer'
 params:
-    headless: true
+    headless: false
 ---

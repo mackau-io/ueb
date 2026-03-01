@@ -1,4 +1,4 @@
-baseURL = "https://kaimackall.com/"
+baseURL = "https://key-blogger.com/"
 languageCode = "en-us"
 title = "key-blogger | Home"
 theme = "hugo-brewm"
@@ -21,7 +21,7 @@ enableGitInfo = true
 	unifiedFooter = true
 
 [params.favicon]
-	svg = '/images/favicon.svg'
+	svg = '/images/kbfavicon.svg'
 
 #[params.feed]
 	#OverrideFlowlinesDir = '/flowlines/'
@@ -38,7 +38,7 @@ enableGitInfo = true
 	## featuredListing = ['categories', 'author']
 
 [params.logo]
-	logoMark = '/images/logo.svg'
+	logoMark = '/images/logoalt.svg'
 
 #[params.posts]
 	## Show colophon section (including QR code)
