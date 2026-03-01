@@ -1,10 +1,6 @@
 ---
 title: 'Resume'
 ---
-# Kai Mackall
-##### Cybersecurity Graduate Student
-
-
 #### WORK EXPERIENCE & PROJECTS
 **Tennessee Technological University** | Cookeville, TN | May 2021 - Aug 2021  
 Cybersecurity Research Intern  
@@ -36,7 +32,7 @@ Windows Server 2016, and Debian
 ●​ Maintained a detailed changelog documenting config changes, troubleshooting steps, and system updates  
 
 #### EDUCATION
-**Western Governors University**, Expected Jan 2026  
+**Western Governors University**, Expected Oct 2026  
 **M.S. in Cybersecurity and Information Assurance**  
 GPA: Pass/Fail system (all courses passed)  
 
@@ -52,9 +48,9 @@ GPA (Inclusive Combined): 3.66/4.0 — Cum Laude
 **Communication & Collaboration**: Customer Service · Technical Documentation · Cross-Team Coordination · Clear Written & Verbal Communication  
 
 #### CERTIFICATIONS
-[**CompTIA CySA+** | Expires 2028 →](/about/CompTIACySA+cert.pdf)  
-[**ISC2 CC** | Expires 2027 →](/about/ISC2CCcert.pdf)  
-**CompTIA PenTest+** | Expected Nov 2025  
+**CompTIA CySA+** | Expires 2031
+**ISC2 CC** | Expires 2027
+**CompTIA PenTest+** | Expires 2029
 
 #### COMPETITION EXPERIENCE
 **National Cyber League Competition – Individual Games** | Spring 2021 - Spring 2025  
