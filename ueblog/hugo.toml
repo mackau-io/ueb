@@ -54,7 +54,7 @@ enableGitInfo = true
 
 [[menu.main]]
     name = 'Blog'
-    url = 'https://blog.kaimackall.com'
+    url = 'https://blog.key-blogger.com'
     weight = 1
 
 [[menu.main]]
