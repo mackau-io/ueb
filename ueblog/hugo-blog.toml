@@ -1,6 +1,6 @@
 baseURL = "https://blog.kaimackall.com/"
 languageCode = "en-us"
-title = "Kai's Blog"
+title = "key-blogger | Blog"
 theme = "hugo-brewm"
 enableGitInfo = true
 
