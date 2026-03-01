@@ -38,7 +38,7 @@ enableGitInfo = true
 	## featuredListing = ['categories', 'author']
 
 [params.logo]
-	logoMark = '/images/logoalt.svg'
+	logoMark = '/images/logoalt2.svg'
 
 #[params.posts]
 	## Show colophon section (including QR code)

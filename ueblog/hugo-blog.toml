@@ -35,7 +35,7 @@ enableGitInfo = true
 	featuredListing = ['categories']
 
 [params.logo]
-	logoMark = '/images/logo.svg'
+	logoMark = '/images/logoalt2.svg'
 
 [params.posts]
 	## Show colophon section (including QR code)
@@ -51,12 +51,12 @@ enableGitInfo = true
 
 [[menu.main]]
     name = 'Portfolio'
-    url = 'https://www.kaimackall.com'
+    url = 'https://www.key-blogger.com'
     weight = 1
 
 [[menu.main]]
     name = 'Blog'
-    url = 'https://blog.kaimackall.com'
+    url = 'https://blog.key-blogger.com'
     weight = 2
 
 [[menu.main]]
