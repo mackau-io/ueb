@@ -48,13 +48,13 @@ GPA (Inclusive Combined): 3.66/4.0 — Cum Laude
 **Communication & Collaboration**: Customer Service · Technical Documentation · Cross-Team Coordination · Clear Written & Verbal Communication  
 
 #### CERTIFICATIONS
-**CompTIA CySA+** | Expires 2031
-**ISC2 CC** | Expires 2027
-**CompTIA PenTest+** | Expires 2029
+**CompTIA CySA+** | Expires 2031  
+**ISC2 CC** | Expires 2027  
+**CompTIA PenTest+** | Expires 2029  
 
 #### COMPETITION EXPERIENCE
 **National Cyber League Competition – Individual Games** | Spring 2021 - Spring 2025  
 ●​ Ranked in the top 5% nationally in Spring 2025 season  
 ●​ Solved real-world IT challenges in web app exploitation, network traffic analysis, and log analysis  
 ●​ Developed strong analytical, troubleshooting, and documentation skills under timed conditions  
-●​ [Spring 2025 Score Report →](https://cyberskyline.com/report/A16G2WBWBPUT)  
+●​ *Score reports available upon request*
