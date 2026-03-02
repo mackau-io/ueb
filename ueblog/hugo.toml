@@ -4,11 +4,11 @@ title = "key-blogger | Home"
 theme = "hugo-brewm"
 enableGitInfo = true
 
-#[taxonomies]
-	#category = 'categories'
-	#tag = 'tags'
-	#author = 'author'
-	#stage = 'stage'
+[taxonomies]
+	category = 'categories'
+	tag = 'tags'
+	author = 'author'
+	stage = 'stage'
 
 [outputs]
     home = ['html', 'rss', 'json']
