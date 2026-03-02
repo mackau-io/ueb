@@ -59,6 +59,9 @@
     {{- $firstPage := not $paginator.HasPrev }}
     {{- $noContent := and (or .IsHome .IsSection) (eq (len $paginator.Pages) 0) (not .Content) }}
     {{- $noContentinTaxonomy := and (not .IsHome) (not .IsSection) (eq (index site.Taxonomies .Data.Plural | len) 0) (not .Content) }}
+    {{- $changeFreq := or .Params.Sitemap.ChangeFreq .Sitemap.ChangeFreq | lower }}
+    {{- $active := eq $changeFreq (or "always" "hourly" "daily" "weekly") }}
+    {{- $liViewCondition := or $active (and (eq .Kind "term") (eq .Data.Plural "series") ) }}
     {{- if or $noContent $noContentinTaxonomy }}
         <div class="pagewidth">
             {{ template "no-content" . }}
@@ -96,15 +99,19 @@
                     </nav>
                 </aside>
             {{- end }}
+        {{- else if $liViewCondition }}
+            {{- if eq .Params.Position "aside" }}
+                {{- with .Content }}
+                    <aside class="has-hero">
+                        {{ partial "hero.html" $ }}
+                    </aside>
+                {{- end }}
+            {{- end }}
         {{- end }}
         {{/*
 
             feed */}}
         {{- if ne .Kind "taxonomy" }}
-            {{- $changeFreq := or .Params.Sitemap.ChangeFreq .Sitemap.ChangeFreq | lower }}
-            {{- $active := eq $changeFreq (or "always" "hourly" "daily" "weekly") }}
-
-            {{/* REMOVE RECENT POSTS SECTION
             <section id="list-posts" class="pagewidth" {{ if not .IsHome }} aria-labelledby="list-post-heading"{{ end }}>
                 <header {{ with .Data.Singular }}id="{{ . }}"{{ end }} class="section-title">
                     <strong id="list-post-heading">
@@ -132,8 +139,9 @@
                         {{- end }}
                     </strong>
                 </header>
-                <!-- list post -->
-                {{- $liViewCondition := or $active (and (eq .Kind "term") (eq .Data.Plural "series") ) }}
+                {{- /*
+
+                    list post */}}
                 {{- if $liViewCondition }}
                     {{ template "li" . }}
                 {{- else }}
@@ -148,18 +156,17 @@
                         {{- $hasCover := partial "page/cover.html" (dict "page" .) }}
                         {{- $alt := or .Params.Alt .Params.coverAlt .Params.imagesAlt }}
                         {{- if $index }}<hr class="ldots" role="presentation" aria-hidden="true">{{- end }}
-                        {{ template "card" (dict "page" $page "paginator" $paginator "counter" $counter "desc" $desc "hasCover" $hasCover "alt" $alt "author" $author "authors" $authors "stage" $stage) }}
+                        {{ template "card" (dict "page" $page "paginator" $paginator "counter" $counter "desc" $desc "hasCover" $hasCover "alt" $alt "author" $author "authors" $authors "stage" $stage "PublishDate" .PublishDate) }}
                     {{- end }}
                     </div>
-                    <!-- paginator navigation -->
+                    {{/*
+
+                        paginator navigation */}}
                     {{- if or .Paginator.HasPrev .Paginator.HasNext }}
-                        <hr class="hide">
                         {{- partial "nav.html" (dict "navID" "pagination" "page" .) }}
                     {{- end }}
                 {{- end }}
             </section>
-            */}}
-
         {{- else }}
             {{- /*
 
