@@ -5,3 +5,6 @@
 [submodule "ueblog/themes/hugo-brewm"]
 	path = ueblog/themes/hugo-brewm
 	url = https://github.com/foxihd/hugo-brewm.git
+[submodule "blog.key-blogger.com/themes/hugo-brewm"]
+	path = blog.key-blogger.com/themes/hugo-brewm
+	url = https://github.com/foxihd/hugo-brewm
