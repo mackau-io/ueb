@@ -58,6 +58,11 @@ enableGitInfo = true
     weight = 1
 
 [[menu.main]]
+    name = 'About'
+    url = 'https://key-blogger.com/about'
+    weight = 2
+
+[[menu.main]]
 	identifier = 'github'
     name = ' '    
     url = 'https://github.com/mackau-io'
