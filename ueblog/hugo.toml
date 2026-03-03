@@ -59,7 +59,7 @@ enableGitInfo = true
 
 [[menu.main]]
     name = 'About'
-    url = 'https://key-blogger.com/about'
+    url = '/about'
     weight = 2
 
 [[menu.main]]
