@@ -1,7 +1,7 @@
 ---
 title: "Graduate Capstone Project"
 date: 2025-10-22
-draft: true
+draft: false
 tags: ["cybersecurity"]
 categories: ["projects"] 
 type: post
